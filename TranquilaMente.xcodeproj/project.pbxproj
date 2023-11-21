@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3777154168708B608A21A557 /* Pods_TranquilaMente.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4935154AF102E5F61762CC /* Pods_TranquilaMente.framework */; };
+		D225B3B92B0C1EF20092F380 /* ProfessionalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D225B3B82B0C1EF20092F380 /* ProfessionalsView.swift */; };
+		D29F27712B09006D00E87BF8 /* TranquilaMenteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F27702B09006D00E87BF8 /* TranquilaMenteApp.swift */; };
+		D29F27752B09006F00E87BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29F27742B09006F00E87BF8 /* Assets.xcassets */; };
+		D29F27782B09006F00E87BF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29F27772B09006F00E87BF8 /* Preview Assets.xcassets */; };
+		D29F27822B09006F00E87BF8 /* TranquilaMenteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F27812B09006F00E87BF8 /* TranquilaMenteTests.swift */; };
+		D29F278C2B09006F00E87BF8 /* TranquilaMenteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F278B2B09006F00E87BF8 /* TranquilaMenteUITests.swift */; };
+		D29F278E2B09006F00E87BF8 /* TranquilaMenteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F278D2B09006F00E87BF8 /* TranquilaMenteUITestsLaunchTests.swift */; };
+		D2DB8CD42B0BCA43008CD920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DB8CD32B0BCA43008CD920 /* ContentView.swift */; };
+		D2DB8CD62B0BCE6F008CD920 /* ChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DB8CD52B0BCE6F008CD920 /* ChatbotView.swift */; };
+		D2DB8CD82B0BD1D9008CD920 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DB8CD72B0BD1D9008CD920 /* CommunityView.swift */; };
+		D2DB8CDA2B0BD464008CD920 /* BreathingExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DB8CD92B0BD464008CD920 /* BreathingExerciseView.swift */; };
+		D2DB8CDC2B0BD71D008CD920 /* GuidedMeditationSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DB8CDB2B0BD71D008CD920 /* GuidedMeditationSessionView.swift */; };
+		D2F59DF62B0C337E00230E91 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = D2F59DF52B0C337E00230E91 /* podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D29F277E2B09006F00E87BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29F27652B09006D00E87BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29F276C2B09006D00E87BF8;
+			remoteInfo = TranquilaMente;
+		};
+		D29F27882B09006F00E87BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29F27652B09006D00E87BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29F276C2B09006D00E87BF8;
+			remoteInfo = TranquilaMente;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F4935154AF102E5F61762CC /* Pods_TranquilaMente.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TranquilaMente.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4404A393E8A3552C42568A95 /* Pods-TranquilaMente.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranquilaMente.debug.xcconfig"; path = "Target Support Files/Pods-TranquilaMente/Pods-TranquilaMente.debug.xcconfig"; sourceTree = "<group>"; };
+		7CF7D0C8E52D3885B5B7F5DF /* Pods-TranquilaMente.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranquilaMente.release.xcconfig"; path = "Target Support Files/Pods-TranquilaMente/Pods-TranquilaMente.release.xcconfig"; sourceTree = "<group>"; };
+		D225B3B82B0C1EF20092F380 /* ProfessionalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalsView.swift; sourceTree = "<group>"; };
+		D29F276D2B09006D00E87BF8 /* TranquilaMente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranquilaMente.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29F27702B09006D00E87BF8 /* TranquilaMenteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilaMenteApp.swift; sourceTree = "<group>"; };
+		D29F27742B09006F00E87BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D29F27772B09006F00E87BF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D29F277D2B09006F00E87BF8 /* TranquilaMenteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquilaMenteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29F27812B09006F00E87BF8 /* TranquilaMenteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilaMenteTests.swift; sourceTree = "<group>"; };
+		D29F27872B09006F00E87BF8 /* TranquilaMenteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquilaMenteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29F278B2B09006F00E87BF8 /* TranquilaMenteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilaMenteUITests.swift; sourceTree = "<group>"; };
+		D29F278D2B09006F00E87BF8 /* TranquilaMenteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilaMenteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2DB8CD32B0BCA43008CD920 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2DB8CD52B0BCE6F008CD920 /* ChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotView.swift; sourceTree = "<group>"; };
+		D2DB8CD72B0BD1D9008CD920 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		D2DB8CD92B0BD464008CD920 /* BreathingExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingExerciseView.swift; sourceTree = "<group>"; };
+		D2DB8CDB2B0BD71D008CD920 /* GuidedMeditationSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedMeditationSessionView.swift; sourceTree = "<group>"; };
+		D2F59DF52B0C337E00230E91 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29F276A2B09006D00E87BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3777154168708B608A21A557 /* Pods_TranquilaMente.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29F277A2B09006F00E87BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29F27842B09006F00E87BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA5A1D94BBCB1E4DBD172B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4404A393E8A3552C42568A95 /* Pods-TranquilaMente.debug.xcconfig */,
+				7CF7D0C8E52D3885B5B7F5DF /* Pods-TranquilaMente.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7FCDB42A3D463DC4A943FE15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F4935154AF102E5F61762CC /* Pods_TranquilaMente.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29F27642B09006D00E87BF8 = {
+			isa = PBXGroup;
+			children = (
+				D29F276F2B09006D00E87BF8 /* TranquilaMente */,
+				D29F27802B09006F00E87BF8 /* TranquilaMenteTests */,
+				D29F278A2B09006F00E87BF8 /* TranquilaMenteUITests */,
+				D29F276E2B09006D00E87BF8 /* Products */,
+				1AA5A1D94BBCB1E4DBD172B8 /* Pods */,
+				7FCDB42A3D463DC4A943FE15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D29F276E2B09006D00E87BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29F276D2B09006D00E87BF8 /* TranquilaMente.app */,
+				D29F277D2B09006F00E87BF8 /* TranquilaMenteTests.xctest */,
+				D29F27872B09006F00E87BF8 /* TranquilaMenteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29F276F2B09006D00E87BF8 /* TranquilaMente */ = {
+			isa = PBXGroup;
+			children = (
+				D29F27702B09006D00E87BF8 /* TranquilaMenteApp.swift */,
+				D2DB8CD32B0BCA43008CD920 /* ContentView.swift */,
+				D2DB8CD52B0BCE6F008CD920 /* ChatbotView.swift */,
+				D2DB8CD92B0BD464008CD920 /* BreathingExerciseView.swift */,
+				D2F59DF52B0C337E00230E91 /* podfile */,
+				D2DB8CDB2B0BD71D008CD920 /* GuidedMeditationSessionView.swift */,
+				D225B3B82B0C1EF20092F380 /* ProfessionalsView.swift */,
+				D2DB8CD72B0BD1D9008CD920 /* CommunityView.swift */,
+				D29F27742B09006F00E87BF8 /* Assets.xcassets */,
+				D29F27762B09006F00E87BF8 /* Preview Content */,
+			);
+			path = TranquilaMente;
+			sourceTree = "<group>";
+		};
+		D29F27762B09006F00E87BF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D29F27772B09006F00E87BF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D29F27802B09006F00E87BF8 /* TranquilaMenteTests */ = {
+			isa = PBXGroup;
+			children = (
+				D29F27812B09006F00E87BF8 /* TranquilaMenteTests.swift */,
+			);
+			path = TranquilaMenteTests;
+			sourceTree = "<group>";
+		};
+		D29F278A2B09006F00E87BF8 /* TranquilaMenteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D29F278B2B09006F00E87BF8 /* TranquilaMenteUITests.swift */,
+				D29F278D2B09006F00E87BF8 /* TranquilaMenteUITestsLaunchTests.swift */,
+			);
+			path = TranquilaMenteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29F276C2B09006D00E87BF8 /* TranquilaMente */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29F27912B09006F00E87BF8 /* Build configuration list for PBXNativeTarget "TranquilaMente" */;
+			buildPhases = (
+				3BBF14ECDC6525BB827B126A /* [CP] Check Pods Manifest.lock */,
+				D29F27692B09006D00E87BF8 /* Sources */,
+				D29F276A2B09006D00E87BF8 /* Frameworks */,
+				D29F276B2B09006D00E87BF8 /* Resources */,
+				4438EDD67D0407ACEC3A0569 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TranquilaMente;
+			productName = TranquilaMente;
+			productReference = D29F276D2B09006D00E87BF8 /* TranquilaMente.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D29F277C2B09006F00E87BF8 /* TranquilaMenteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29F27942B09006F00E87BF8 /* Build configuration list for PBXNativeTarget "TranquilaMenteTests" */;
+			buildPhases = (
+				D29F27792B09006F00E87BF8 /* Sources */,
+				D29F277A2B09006F00E87BF8 /* Frameworks */,
+				D29F277B2B09006F00E87BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29F277F2B09006F00E87BF8 /* PBXTargetDependency */,
+			);
+			name = TranquilaMenteTests;
+			productName = TranquilaMenteTests;
+			productReference = D29F277D2B09006F00E87BF8 /* TranquilaMenteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D29F27862B09006F00E87BF8 /* TranquilaMenteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29F27972B09006F00E87BF8 /* Build configuration list for PBXNativeTarget "TranquilaMenteUITests" */;
+			buildPhases = (
+				D29F27832B09006F00E87BF8 /* Sources */,
+				D29F27842B09006F00E87BF8 /* Frameworks */,
+				D29F27852B09006F00E87BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29F27892B09006F00E87BF8 /* PBXTargetDependency */,
+			);
+			name = TranquilaMenteUITests;
+			productName = TranquilaMenteUITests;
+			productReference = D29F27872B09006F00E87BF8 /* TranquilaMenteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29F27652B09006D00E87BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D29F276C2B09006D00E87BF8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D29F277C2B09006F00E87BF8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D29F276C2B09006D00E87BF8;
+					};
+					D29F27862B09006F00E87BF8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D29F276C2B09006D00E87BF8;
+					};
+				};
+			};
+			buildConfigurationList = D29F27682B09006D00E87BF8 /* Build configuration list for PBXProject "TranquilaMente" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D29F27642B09006D00E87BF8;
+			productRefGroup = D29F276E2B09006D00E87BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29F276C2B09006D00E87BF8 /* TranquilaMente */,
+				D29F277C2B09006F00E87BF8 /* TranquilaMenteTests */,
+				D29F27862B09006F00E87BF8 /* TranquilaMenteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29F276B2B09006D00E87BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F59DF62B0C337E00230E91 /* podfile in Resources */,
+				D29F27782B09006F00E87BF8 /* Preview Assets.xcassets in Resources */,
+				D29F27752B09006F00E87BF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29F277B2B09006F00E87BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29F27852B09006F00E87BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BBF14ECDC6525BB827B126A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TranquilaMente-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4438EDD67D0407ACEC3A0569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TranquilaMente/Pods-TranquilaMente-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TranquilaMente/Pods-TranquilaMente-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TranquilaMente/Pods-TranquilaMente-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29F27692B09006D00E87BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DB8CD42B0BCA43008CD920 /* ContentView.swift in Sources */,
+				D29F27712B09006D00E87BF8 /* TranquilaMenteApp.swift in Sources */,
+				D2DB8CDA2B0BD464008CD920 /* BreathingExerciseView.swift in Sources */,
+				D2DB8CDC2B0BD71D008CD920 /* GuidedMeditationSessionView.swift in Sources */,
+				D2DB8CD82B0BD1D9008CD920 /* CommunityView.swift in Sources */,
+				D225B3B92B0C1EF20092F380 /* ProfessionalsView.swift in Sources */,
+				D2DB8CD62B0BCE6F008CD920 /* ChatbotView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29F27792B09006F00E87BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29F27822B09006F00E87BF8 /* TranquilaMenteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29F27832B09006F00E87BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29F278E2B09006F00E87BF8 /* TranquilaMenteUITestsLaunchTests.swift in Sources */,
+				D29F278C2B09006F00E87BF8 /* TranquilaMenteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D29F277F2B09006F00E87BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29F276C2B09006D00E87BF8 /* TranquilaMente */;
+			targetProxy = D29F277E2B09006F00E87BF8 /* PBXContainerItemProxy */;
+		};
+		D29F27892B09006F00E87BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29F276C2B09006D00E87BF8 /* TranquilaMente */;
+			targetProxy = D29F27882B09006F00E87BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D29F278F2B09006F00E87BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D29F27902B09006F00E87BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D29F27922B09006F00E87BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4404A393E8A3552C42568A95 /* Pods-TranquilaMente.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TranquilaMente/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TranquilaMente;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D29F27932B09006F00E87BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF7D0C8E52D3885B5B7F5DF /* Pods-TranquilaMente.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TranquilaMente/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TranquilaMente;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D29F27952B09006F00E87BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TranquilaMenteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranquilaMente.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TranquilaMente";
+			};
+			name = Debug;
+		};
+		D29F27962B09006F00E87BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TranquilaMenteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranquilaMente.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TranquilaMente";
+			};
+			name = Release;
+		};
+		D29F27982B09006F00E87BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TranquilaMenteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TranquilaMente;
+			};
+			name = Debug;
+		};
+		D29F27992B09006F00E87BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TranquilaMenteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TranquilaMente;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29F27682B09006D00E87BF8 /* Build configuration list for PBXProject "TranquilaMente" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29F278F2B09006F00E87BF8 /* Debug */,
+				D29F27902B09006F00E87BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29F27912B09006F00E87BF8 /* Build configuration list for PBXNativeTarget "TranquilaMente" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29F27922B09006F00E87BF8 /* Debug */,
+				D29F27932B09006F00E87BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29F27942B09006F00E87BF8 /* Build configuration list for PBXNativeTarget "TranquilaMenteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29F27952B09006F00E87BF8 /* Debug */,
+				D29F27962B09006F00E87BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29F27972B09006F00E87BF8 /* Build configuration list for PBXNativeTarget "TranquilaMenteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29F27982B09006F00E87BF8 /* Debug */,
+				D29F27992B09006F00E87BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D29F27652B09006D00E87BF8 /* Project object */;
+}

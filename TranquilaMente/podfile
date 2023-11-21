@@ -1,0 +1,7 @@
+platform :ios, '13.0'
+
+target 'SeuNomeDoAlvo' do
+  use_frameworks!
+pod 'Alamofire', '~> 5.4.4'
+end
+
